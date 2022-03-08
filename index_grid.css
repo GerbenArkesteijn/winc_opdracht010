@@ -1,0 +1,18 @@
+.container {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    grid-gap: 50px;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 275px 275px;
+    grid-template-areas: 
+        "m c";
+}
+
+.box1 {
+    grid-area: m;
+}
+
+.box2 {
+    grid-area: c;
+}
